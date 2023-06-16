@@ -1,3 +1,7 @@
+param (
+    $yourname
+)
+
 Write-Host "Parameter 2: $yourname"
 Write-Host "##gbStart##yourname##splitKeyValue##saran##gbEnd"
 
