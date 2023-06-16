@@ -1,9 +1,9 @@
 param (
-    $yourname
+    $myname
 )
 
-Write-Host "Parameter 2: $yourname"
+Write-Host "Parameter 2: $myname"
 Write-Host "##gbStart##yourname##splitKeyValue##saran##gbEnd"
 
 # Greet the user
-Write-Host "Hello, $yourname! Welcome to PowerShell."
+Write-Host "Hello, $myname! Welcome to PowerShell."
