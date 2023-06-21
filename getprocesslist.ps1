@@ -1,4 +1,4 @@
-$InstanceNumber = "XX"  # Replace XX with the actual instance number
+$InstanceNumber = "00"  # Replace XX with the actual instance number
 
 # Build the command
 $command = "sapcontrol -nr $InstanceNumber -function GetProcessList"
