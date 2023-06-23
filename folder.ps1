@@ -1,4 +1,6 @@
-$folderPath = "D:\NewFolder"
+param (
+    $folderPath
+)
 
 if (-not (Test-Path $folderPath)) {
     New-Item -ItemType Directory -Path $folderPath
