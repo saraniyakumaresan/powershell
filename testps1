@@ -1,0 +1,5 @@
+Write-Host "Welcome"
+dir -Directory
+Write-Host "These are the list of directories in the current path"
+Write-Host "##gbStart##vault4##splitKeyValue##testing##gbEnd##"
+Write-Host "##gbStart##vault5##splitKeyValue##testing1##gbEnd##"
